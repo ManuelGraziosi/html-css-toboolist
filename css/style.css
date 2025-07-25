@@ -31,13 +31,51 @@
 
 .btn {
     border-radius: 5px;
-    padding: 5px;
+    padding: 5px 10px;
     border: none;
+    font-size: 10px;
+}
+
+.list {
+    list-style: none;
+}
+
+.list ul {
+    margin: 10px 0 30px;
+}
+
+.list li {
+    margin: 10px 0;
+}
+
+.circle {
+    height: 15px;
+    line-height: 15px;
+    width: 15px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.check {
+    font-size: 10px;
+    color: green;
+}
+
+.cross {
+    font-size: 10px;
+    color: red;
+}
+
+.label {
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-size: 10px;
 }
 
 /* Classi di servizio specifiche */
 .background-color-lightgray {
-    background-color: rgb(211, 211, 211);
+    background-color: rgb(237, 237, 237);
 }
 
 .background-color-white {
@@ -45,15 +83,15 @@
 }
 
 .background-color-azure {
-    background-color: rgb(21, 127, 214);
+    background-color: rgb(69, 171, 234);
 }
 
 .background-color-violet {
-    background-color: rgb(122, 40, 205);
+    background-color: rgb(156, 114, 228);
 }
 
-.background-color-aquamarine {
-    background-color: rgb(127, 255, 212);
+.background-color-green {
+    background-color: rgb(100, 192, 169);
 }
 
 .background-color-orange {
@@ -64,8 +102,8 @@
     background-color: rgb(226, 52, 226);
 }
 
-.background-color-greenyellow {
-    background-color: rgb(173, 255, 47);
+.background-color-green2 {
+    background-color: rgb(176, 201, 38);
 }
 
 .border {
@@ -82,15 +120,15 @@
 }
 
 .border-color-azure {
-    border-color: rgb(21, 127, 214);
+    background-color: rgb(69, 171, 234);
 }
 
 .border-color-violet {
-    border-color: rgb(122, 40, 205);
+    background-color: rgb(156, 114, 228);
 }
 
-.border-color-aquamarine {
-    border-color: rgb(127, 255, 212);
+.border-color-green {
+    background-color: rgb(100, 192, 169);
 }
 
 .border-color-orange {
@@ -109,6 +147,7 @@
     display: inline-block;
 }
 
+
 .text-color-white {
     color: rgb(255, 255, 255);
 }
@@ -119,4 +158,12 @@
 
 .vertical-align-middle {
     vertical-align: middle;
+}
+
+.margin-5px {
+    margin: 5px;
+}
+
+.margin-10px {
+    margin: 10px;
 }
