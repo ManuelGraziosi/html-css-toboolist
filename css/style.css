@@ -5,14 +5,19 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: rgb(211, 211, 211);
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    padding: 10px 30px 5px;
 }
 
+
 .header {
-    background-color: rgb(255, 255, 255);
     height: 80px;
     padding-top: 10px;
+    margin-bottom: 50px;
 }
 
 .header-img {
@@ -24,9 +29,92 @@ body {
     font-weight: 900;
 }
 
+.btn {
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+}
+
 /* Classi di servizio specifiche */
+.background-color-lightgray {
+    background-color: rgb(211, 211, 211);
+}
+
+.background-color-white {
+    background-color: rgb(255, 255, 255);
+}
+
+.background-color-azure {
+    background-color: rgb(21, 127, 214);
+}
+
+.background-color-violet {
+    background-color: rgb(122, 40, 205);
+}
+
+.background-color-aquamarine {
+    background-color: rgb(127, 255, 212);
+}
+
+.background-color-orange {
+    background-color: rgb(255, 165, 0);
+}
+
+.background-color-fuchsia {
+    background-color: rgb(226, 52, 226);
+}
+
+.background-color-greenyellow {
+    background-color: rgb(173, 255, 47);
+}
+
+.border {
+    border-style: solid;
+    border-width: 1px;
+}
+
+.border-color-lightgray {
+    border-color: rgb(211, 211, 211);
+}
+
+.border-color-white {
+    border-color: rgb(255, 255, 255);
+}
+
+.border-color-azure {
+    border-color: rgb(21, 127, 214);
+}
+
+.border-color-violet {
+    border-color: rgb(122, 40, 205);
+}
+
+.border-color-aquamarine {
+    border-color: rgb(127, 255, 212);
+}
+
+.border-color-orange {
+    border-color: rgb(255, 165, 0);
+}
+
+.border-color-fuchsia {
+    border-color: rgb(226, 52, 226);
+}
+
+.border-color-greenyellow {
+    border-color: rgb(173, 255, 47);
+}
+
 .display-inline-block {
     display: inline-block;
+}
+
+.text-color-white {
+    color: rgb(255, 255, 255);
+}
+
+.text-color-grey {
+    color: rgb(128, 128, 128);
 }
 
 .vertical-align-middle {
